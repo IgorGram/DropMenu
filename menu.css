@@ -1,0 +1,13 @@
+.menu__title {
+	cursor: pointer;
+}
+.menu.menu-closed .menu__list {
+	display: none;
+}
+
+.menu__title:before {
+	content: '▼';
+}
+.menu-closed .menu__title:before {
+	content: '▶';
+}
